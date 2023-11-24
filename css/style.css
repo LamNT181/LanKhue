@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    color: #4A4A4A;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img_container {
+    width: 152px;
+    height: 111.649px;
+    flex-shrink: 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.option_card>img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.container-fluid {
+    padding: 0;
+}
+/* the slides */
+.slick-slide {
+    margin: 0 20px;
+}
+
+/* the parent */
+.slick-list {
+    margin: 0 -20px;
+}
+
+.news_list .slick-slide {
+    margin: 0 10px;
+}
+.news_list .slick-list{
+    margin: 0 -10px;
+}
